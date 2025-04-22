@@ -1,0 +1,31 @@
+{
+    "flag": "-eHr",
+    "pattern": [
+        "AC[a-f0-9]{32}",
+        "SK[a-f0-9]{32}",
+        "SG\\.[a-zA-Z0-9\\._-]{20,}\\.[a-zA-Z0-9\\._-]{20,}",
+        "key-[0-9a-zA-Z]{32}",
+        "AAA[A-Za-z0-9\\-_]{7,}",
+        "AKIA[0-9A-Z]{16}",
+        "[A-Za-z0-9\\/+=]{40}",
+        "AIza[0-9A-Za-z\\-_]{35}",
+        "azure.*(key|token)[\"'\\s:=]+[a-zA-Z0-9\\-_]{20,}",
+        "sk-(live|test)-[0-9a-zA-Z]{24}",
+        "pk-(live|test)-[0-9a-zA-Z]{24}",
+        "sq0atp-[A-Za-z0-9\\-_]{22,}",
+        "rzp_(live|test)_[A-Za-z0-9]{14,}",
+        "paypal.*client.?id[\"'\\s:=]+[A-Za-z0-9\\-_]{20,}",
+        "sk-[a-zA-Z0-9]{32,}",
+        "hf_[a-zA-Z0-9]{35,}",
+        "EAACEdEose0cBA[0-9A-Za-z]+",
+        "AAAA[A-Za-z0-9%]{10,}",
+        "reddit.*client.*id[\"'\\s:=]+[a-zA-Z0-9]{14,}",
+        "auth0.*(client.?id|secret)[\"'\\s:=]+[A-Za-z0-9\\-_]{20,}",
+        "okta.*(api.?key|client.?id)[\"'\\s:=]+[A-Za-z0-9\\-_]{20,}",
+        "ghp_[A-Za-z0-9]{36,}",
+        "glpat-[A-Za-z0-9\\-_]{20,}",
+        "vercel.*token[\"'\\s:=]+[a-z0-9\\-_]{20,}",
+        "netlify.*token[\"'\\s:=]+[a-z0-9\\-_]{20,}"
+    ]
+}
+  
